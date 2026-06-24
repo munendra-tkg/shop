@@ -1,3 +1,4 @@
+import Coupon from '@components/checkout/coupon/coupon';
 import usePrice from '@lib/use-price';
 import EmptyCartIcon from '@components/icons/empty-cart';
 import { CloseIcon } from '@components/icons/close-icon';
