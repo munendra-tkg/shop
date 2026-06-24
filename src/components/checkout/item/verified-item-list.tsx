@@ -1,4 +1,3 @@
-import Coupon from '@components/checkout/coupon/coupon';
 import usePrice from '@lib/use-price';
 import EmptyCartIcon from '@components/icons/empty-cart';
 import { CloseIcon } from '@components/icons/close-icon';
@@ -115,7 +114,7 @@ const VerifiedItemList: React.FC<Props> = ({ className }) => {
           </div>
         ) : (
           <div className="flex justify-between py-4 px-6 border-t border-gray-100">
-            <Coupon />
+            {/* Coupon placeholder */}
           </div>
         )}
         <div className="flex justify-between border-t-4 border-double border-gray-100 py-4 px-6">
