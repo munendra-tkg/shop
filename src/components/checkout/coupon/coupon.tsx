@@ -1,2 +1,2 @@
-const Coupon = () => <div>Coupon placeholder</div>;
+const Coupon = () => <div>Coupon</div>;
 export default Coupon;
